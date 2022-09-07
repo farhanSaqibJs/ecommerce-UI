@@ -1,0 +1,75 @@
+Footer {
+  padding-top: 40px;
+}
+.FooterBorder {
+  border-top: 1px solid #a19a9a;
+  border-bottom: 1px solid #a19a9a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footerWidget {
+
+}
+.footerWidgetTitle {
+  margin-bottom: 15px;
+}
+.footerWidgetTitle h3 {
+  font-size: 20px;
+  color: #201446;
+  line-height: 28px;
+  font-weight: 600;
+}
+.footerWidgetList {
+
+}
+.footerWidgetList ul {
+  padding: 0;
+}
+.footerWidgetList ul li {
+  margin-bottom: 4px;
+}
+.footerWidgetList ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a19a9a;
+}
+.footerWidgetList ul li a:hover{
+  color: #201446;
+}
+
+/*Chat Icon*/
+.chatPosition {
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 100px;
+}
+.chatIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #201446;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  color: #fff;
+}
+/*Chat Icon*/
+
+
+/*bottom Footer*/
+.bottomFooter {
+  background: #201446;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottomFooter p {
+  color: #fff;
+  margin: 0;
+}
+/*bottom Footer*/
