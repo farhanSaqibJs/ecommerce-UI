@@ -94,13 +94,15 @@
 table{
   border-collapse: collapse;
 }
-table thead tr th{
-  border-bottom: 1px solid #000000;
+table thead tr td{
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 table th, table td {
-  border-left: 1px solid rgba(0,0,0,0.2);
-  border-right: 1px solid rgba(0,0,0,0.2);
-  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #a19a9a;
+  border-right: 1px solid #a19a9a;
+  border-bottom: 1px solid #a19a9a;
 }
 table th:first-child, table td:first-child {
   border-left: none;
@@ -114,4 +116,32 @@ table th, table td{ /* Added padding for better layout after collapsing */
 table tbody td {
   padding-top: 10px;
   padding-bottom: 8px;
+}
+
+.closeBtn {
+  border: 1px solid #ddd;
+  color: #ddd;
+  transition: 0.4s ease-in-out;
+  border-radius: 100px;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  line-height: 13px;
+}
+.closeBtn:hover {
+  color: #201446;
+  border-color: #201446;
+}
+
+.border {
+  border-color: #a19a9a !important;
+}
+.card {
+  border-radius: 0;
+  border-color: #a19a9a;
 }

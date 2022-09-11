@@ -2,6 +2,7 @@
   zoom: 1;
   position: relative;
   height: auto;
+  margin-bottom: 40px;
 }
 .sectionForTable:after,
 .sectionForTable:before {
@@ -12,15 +13,22 @@
   clear: both;
 }
 .sectionForTable h4 {
-  background: rgba(0,0,0,0.1);
   cursor: pointer;
-  border: 1px solid rgba(0,0,0,0.2);
+  color: #a19a9a;
+  border: 1px solid #a19a9a;
   border-top: none;
   padding: 15px 10px;
   margin: 0;
 }
+.sectionForTable h4.active {
+  color: #201446;
+}
 .sectionForTable h4:first-child {
-  border-top: 1px solid rgba(0,0,0,0.2);
+  border-top: 1px solid #a19a9a;
+}
+.sectionForTable table thead tr td {
+  padding: 14px 3px;
+  white-space: nowrap;
 }
 @media screen and (min-width: 600px) {
   .sectionForTable h4 {
@@ -35,7 +43,7 @@
   position: relative;
   height: auto;
   min-height: 100%;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid #a19a9a;
   border-left: none;
   display: none;
 }
@@ -56,12 +64,12 @@
     width: 66.66666666666667%;
     right: 0;
     top: 0;
-    padding: 15px 10px;
+    padding: 0;
   }
 }
 .sectionForTable .active {
   cursor: default;
-  border-bottom: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid #a19a9a;
   border-right: none;
 }
 @media screen and (min-width: 600px) {

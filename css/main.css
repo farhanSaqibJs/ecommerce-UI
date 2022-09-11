@@ -1,3 +1,17 @@
+/*Sticky header*/
+
+/*.sticky-header {*/
+/*}*/
+/*.fixed-header {*/
+/*  position: fixed;*/
+/*  top:0; left:0;*/
+/*  width: 100%;*/
+/*  z-index: 99999;*/
+/*  background: #fff}*/
+
+/*Sticky header End*/
+
+
 .material-symbols-outlined {
   font-variation-settings:
     'FILL' 0,
@@ -75,9 +89,9 @@ body
 
 }
 .productGrid .singleProduct{
-  border: 1px solid #ddd;
+  border: 1px solid #a19a9a;
   padding: 5px 8px;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -153,3 +167,56 @@ body
 }
 /*productGrid Component*/
 
+/*Theme Listing CSS*/
+.themeListing {
+  margin: 16px 0;
+}
+.themeListing ul {
+  list-style-type: "→" !important;
+
+}
+.themeListing ul li {
+  list-style: initial !important;
+}
+/*Theme Listing CSS*/
+
+
+/*themeHorizontalTab*/
+.themeHorizontalTa {
+  margin-bottom: 35px;
+}
+.themeHorizontalTab .nav-tabs .nav-link {
+  background: 0 0;
+  border-radius: 0;
+}
+.themeHorizontalTab .nav-link{
+  color: #a19a9a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.themeHorizontalTab .nav-link.active{
+  color: #201446;
+
+}
+.themeHorizontalTab {
+
+}.themeHorizontalTab {
+
+}
+/*themeHorizontalTab*/
+
+
+/*Checkout page CSS Start*/
+.checkoutPage .checkoutItemThumbnail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkoutPage .checkoutItemThumbnail img  {
+  width: 90px;
+}
+.checkoutCardData {
+  display: flex;
+  justify-content: space-between;
+}
+/*Checkout page CSS End*/

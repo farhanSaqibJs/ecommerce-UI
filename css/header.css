@@ -6,7 +6,21 @@
 /*********************************
 2. Body and some general stuff
 *********************************/
-
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  animation: smoothScroll 1s forwards;
+  width: 100%;
+}
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 ul
 {
   list-style: none;
@@ -453,6 +467,7 @@ section
 
 .header_main
 {
+  background: #fff;
   z-index: 1;
 }
 .header.scrolled .header_main
@@ -1023,6 +1038,7 @@ select option
   padding-left: 15px;
   padding-right: 15px;
   overflow: hidden;
+  position: fixed;
 }
 .page_menu_search
 {
@@ -1195,7 +1211,7 @@ select option
     gap: 12px;
   }
   .confidence ul li {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #a19a9a;
     padding-top: 8px;
     padding-bottom: 8px;
   }

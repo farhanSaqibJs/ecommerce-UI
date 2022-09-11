@@ -6,6 +6,7 @@
 .primary-g,
 .thumbnails-g {
   display: table-cell;
+  margin-bottom: 30px;
 }
 
 .thumbnails-g {
