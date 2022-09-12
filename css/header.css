@@ -8,10 +8,13 @@
 *********************************/
 .fixed {
   position: fixed;
+  left: 10px;
   top: 0;
-  left: 0;
-  animation: smoothScroll 1s forwards;
-  width: 100%;
+  right: 10px;
+  animation: smoothScroll 1.5s ease-in-out;
+}
+.mobile-menu {
+  background: #fff;
 }
 @keyframes smoothScroll {
   0% {
@@ -1038,7 +1041,6 @@ select option
   padding-left: 15px;
   padding-right: 15px;
   overflow: hidden;
-  position: fixed;
 }
 .page_menu_search
 {
@@ -1325,9 +1327,9 @@ select option
 
 @media only screen and (max-width: 575px)
 {
-  .row>* {
-    padding-right: 0;
-  }
+  /*.row>* {*/
+  /*  padding-right: 0;*/
+  /*}*/
   h2{font-size: 24px;}
   p{font-size: 13px;}
   .top_bar

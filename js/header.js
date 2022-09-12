@@ -127,7 +127,7 @@ $(window).scroll(function () {
   var sticky = $('.mobile-menu'),
   scroll = $(window).scrollTop();
 
-  if (scroll >= 200) {
+  if (scroll >= 150) {
     sticky.addClass('fixed');
     $(".mainBody").css("margin-top", "200px");
   }
