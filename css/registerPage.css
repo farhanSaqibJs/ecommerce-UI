@@ -52,7 +52,7 @@ input:hover, input:focus, input:active, focus-visible {
 .sign-in-container {
   left: 0;
   width: 50%;
-  z-index: 9999;
+  z-index: 2;
 }
 
 .registerContainer.right-panel-active .sign-in-container {
@@ -93,7 +93,7 @@ input:hover, input:focus, input:active, focus-visible {
   height: 100%;
   overflow: hidden;
   transition: transform 0.6s ease-in-out;
-  z-index: 99999;
+  z-index: 100;
 }
 
 .registerContainer.right-panel-active .overlay-container{
@@ -135,7 +135,7 @@ input:hover, input:focus, input:active, focus-visible {
 }
 
 .overlay-left {
-  transform: translateX(-20%);
+  transform: translateX(0%);
 }
 
 .registerContainer.right-panel-active .overlay-left {
@@ -209,12 +209,13 @@ input:hover, input:focus, input:active, focus-visible {
 }
 
 @media (max-width: 767.5px) {
-  button {
+  .overlay button {
     padding: 12px 25px;
+    box-shadow: none;
   }
   .registerContainer {
     min-height: 536px;
-    max-width: 400px;
+    max-width: 310px;
     margin: 25px 0;
   }
   .registerContainer.right-panel-active .sign-up-container {
@@ -303,5 +304,8 @@ input:hover, input:focus, input:active, focus-visible {
     width: 50%;
     transform: translateX(0);
     transition: transform 0.6s ease-in-out;
+  }
+  .register-page form {
+    padding: 0 10px;
   }
 }

@@ -11,7 +11,9 @@
 
 /*Sticky header End*/
 
-
+.mainBody {
+  position: relative;
+}
 .material-symbols-outlined {
   font-variation-settings:
     'FILL' 0,
@@ -86,9 +88,11 @@ body
 
 /*productGrid Component*/
 .productGrid {
-
+  position: relative;
 }
 .productGrid .singleProduct{
+  width: 100%;
+  display: inline-block;
   border: 1px solid #a19a9a;
   padding: 5px 8px;
   margin-bottom: 24px;
@@ -96,10 +100,12 @@ body
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .productGrid .singleProduct .productImg{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
   margin-bottom: 15px;
+  display: flow-root;
+  text-align: center;
 }
 .productGrid .singleProduct .productInfo{
   padding: 0 15px;
@@ -218,5 +224,11 @@ body
 .checkoutCardData {
   display: flex;
   justify-content: space-between;
+}
+.finalProductName {
+  margin-bottom: 5px;
+}
+.finalProductName:before {
+  content: '- ';
 }
 /*Checkout page CSS End*/
